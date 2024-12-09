@@ -4,6 +4,10 @@ nixPkgs = ["mailpit"]
 [start]
 cmd = "mailpit"
 
+[ports]
+# Expose the SMTP port
+1025 = "tcp"
+
 # [variables]
 # MP_MAX_MESSAGES_STORED = "1000"
 # MP_MESSAGE_RETENTION = "168h"
