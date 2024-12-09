@@ -1,0 +1,14 @@
+[phases.setup]
+nixPkgs = ["mailpit"]
+
+[start]
+cmd = "mailpit"
+
+# [variables]
+# MP_MAX_MESSAGES_STORED = "1000"
+# MP_MESSAGE_RETENTION = "168h"
+# MP_SMTP_PORT = "1025"
+# MP_SMTP_AUTH_ALLOW_INSECURE = "false"
+# MP_SMTP_REQUIRE_TLS = "true"
+# PORT = "8025" # Default Web UI port
+# MP_UI_AUTH="user1:password1 user2:password2" # this one will be set via UI inside Railway
